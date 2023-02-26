@@ -22,12 +22,12 @@ function App() {
   return (
     <div className="app">
       <div className="search">
-        <input
+        <p1>Your City         <input
           value={location}
           onChange={event => setLocation(event.target.value)}
           onKeyPress={searchLocation}
           placeholder='Enter Location'
-          type="text" />
+          type="text" /></p1>
       </div>
 
       
