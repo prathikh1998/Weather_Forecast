@@ -21,7 +21,6 @@ p1 {
   font-size: 1.3rem;
   width: 50px;
   height: 50px;
-  background-color: #ccc;
   margin-right: 10px;
 }
 
@@ -39,6 +38,7 @@ h1{
   height: 100vh;
   position: relative;
   background-color: rgba(0, 0, 0, 0.2);
+  background: url(./daytime-miving.gif) no-repeat center center/cover;
   color: rgb(255, 255, 255);
 }
 

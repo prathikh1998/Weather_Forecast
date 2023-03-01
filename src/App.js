@@ -40,9 +40,7 @@ function App() {
           <div className="location">
             <p2>{data.name}</p2>
           </div>
-          <div className='time'>
-            <p2>{data.timezone}</p2>
-          </div>
+          
           <div className='temp'>
             {data.main ? <h1>{data.main.temp}°F</h1> : null}
           </div>
